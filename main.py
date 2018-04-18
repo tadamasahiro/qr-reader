@@ -54,6 +54,6 @@ def display(frame, decoded_objs):
 
     return frame
  
- if __name__ == '__main__':
+if __name__ == '__main__':
     app.run(host="0.0.0.0", debug=False, threaded=True)
  
