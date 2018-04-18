@@ -35,7 +35,7 @@ def get_frame():
 
     return jpeg.tobytes()
 
- def decode(frame):
+def decode(frame):
     decoded_objs = pyzbar.decode(frame, scan_locations=True)
     for obj in decoded_objs:
         print(datetime.now().strftime('%H:%M:%S.%f'))
